@@ -1,0 +1,7 @@
+#Operaciones aritméticas
+Engrane= 112
+Totalengranes= int(input ("Ingresa el número total de engranes a enviar: "))
+Cilindros= 75
+Totalcilindros= int(input ("Ingresa el número total de cilindros a enviar: "))
+Total= (Totalengranes*Engrane)+(Totalcilindros*Cilindros)
+print ("El peso total del pedido es: ", Total)
