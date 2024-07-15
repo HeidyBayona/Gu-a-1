@@ -1,0 +1,8 @@
+#Operaciones aritméticas
+panviejo = int(input("Introduce el número de barras vendidas que no son frescas: "))
+precionormal = 3.49 
+descuentoporviejo = 0.6
+preciofinal= (float((panviejo*precionormal)*(1-descuentoporviejo)))
+print("El precio de una barra fresca es: ", (precionormal))
+print("El descuento sobre una barra no fresca es: ", descuentoporviejo*100, "%")
+print("El precio total es: ", preciofinal)
