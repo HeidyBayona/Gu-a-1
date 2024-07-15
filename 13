@@ -1,7 +1,7 @@
 #Condicionales
 Contraseña=input("Digite una nueva contraseña: ")
 Contraseñanueva= input ("Digite su nueva contraseña: ")
-if Contraseña==Contraseñanueva.lower:
+if Contraseña==Contraseñanueva:
     print ("Contraseña correcta.")
 else:
     print ("Contraseña incorrecta.")
