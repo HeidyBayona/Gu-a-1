@@ -1,0 +1,8 @@
+#Condicionales
+Número1=float(input("Digita un número: "))
+Número2=float(input("Digita otro número: "))
+
+if Número2==0:
+    print ("Error, el divisor no puede ser cero (0).")
+else:
+    print("La división es igual a: ",Número1/Número2)
