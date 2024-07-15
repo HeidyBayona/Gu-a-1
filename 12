@@ -1,0 +1,6 @@
+#Condicionales
+edad=int(input("¿Cuántos años tienes?"))
+if edad<18:
+    print ("Eres menor de edad.")
+if edad>18:
+    print ("Eres mayor de edad")
